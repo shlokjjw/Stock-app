@@ -1,4 +1,4 @@
-### Stock Market Tracker
+# Stock Market Tracker
 
 
 ## Getting Started
