@@ -1,6 +1,5 @@
-# flutter_application_4
+### Stock Market Tracker
 
-A new Flutter project.
 
 ## Getting Started
 
