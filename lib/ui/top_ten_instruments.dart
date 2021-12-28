@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_4/bloc/price_bloc.dart';
 import 'package:flutter_application_4/model/price.dart';
+import 'package:flutter_application_4/ui/detail_screen.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class TopTenInstrument extends StatefulWidget {
@@ -144,7 +145,14 @@ class _TopTenInstrumentState extends State<TopTenInstrument> {
                             children: <Widget>[
                               Container(
                                 child: IconButton(
-                                  onPressed: () {},
+                                  onPressed: () {
+                                    Navigator.push(
+                                      context, 
+                                      MaterialPageRoute(
+                                        builder: (context)=>
+                                    DetailScreen(instrument: price.instrument),
+                                    );
+                                  },
                                   icon: Icon(
                                     Icons.navigate_next,
                                     color: Colors.red[500],

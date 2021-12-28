@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_application_4/ui/price_eur_usd.dart';
 import 'package:flutter_application_4/ui/top_ten_instruments.dart';
 
 class HomeScreen extends StatelessWidget {
